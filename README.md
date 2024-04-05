@@ -21,6 +21,19 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Getting Started
+
+To get started with Laravel, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Run `composer install` to install the project dependencies.
+3. Rename the `.env.example` file to `.env` and configure your database settings.
+4. Run `php artisan key:generate` to generate the application key.
+5. Run `php artisan migrate` to run the database migrations.
+6. Optionally, run `php artisan db:seed` to seed the database with sample data.
+
+Now you're ready to start using Laravel for your web application development!
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
